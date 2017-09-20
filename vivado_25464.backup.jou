@@ -1,0 +1,448 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Sun Sep 17 10:45:43 2017
+# Process ID: 25464
+# Current directory: C:/Users/Darius/Desktop/Y4S1/EE4218/ATC
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7388 C:\Users\Darius\Desktop\Y4S1\EE4218\ATC\ATC.xpr
+# Log file: C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/vivado.log
+# Journal file: C:/Users/Darius/Desktop/Y4S1/EE4218/ATC\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/ATC.xpr
+close [ open C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/ATC.srcs/sources_1/new/clk_three.vhd w ]
+add_files C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/ATC.srcs/sources_1/new/clk_three.vhd
+close [ open C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/ATC.srcs/sources_1/new/clk_ten.vhd w ]
+add_files C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/ATC.srcs/sources_1/new/clk_ten.vhd
+close [ open C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/ATC.srcs/sources_1/new/slow_clk.vhd w ]
+add_files C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/ATC.srcs/sources_1/new/slow_clk.vhd
+launch_simulation
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_simulation
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_act_traffic.tcl
+open_run impl_1
+close_sim
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_act_traffic.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_act_traffic.tcl
+save_wave_config {C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_act_traffic.tcl
+save_wave_config {C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_act_traffic.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_act_traffic.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_act_traffic.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_act_traffic.tcl
+close_sim
+launch_simulation
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_act_traffic.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_act_traffic.tcl
+save_wave_config {C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_act_traffic.tcl
+close [ open C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/ATC.srcs/sources_1/new/traffic.vhd w ]
+add_files C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/ATC.srcs/sources_1/new/traffic.vhd
+save_wave_config {C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_act_traffic.tcl
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/ATC.srcs/sim_1/new/test_traffic.vhd w ]
+add_files -fileset sim_1 C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/ATC.srcs/sim_1/new/test_traffic.vhd
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top test_traffic [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+launch_simulation
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top traffic [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+launch_simulation
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_traffic.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_traffic.tcl
+save_wave_config {C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_traffic.tcl
+save_wave_config {C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_traffic.tcl
+save_wave_config {C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_traffic.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_traffic.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_traffic.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_traffic.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_traffic.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_traffic.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_traffic.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_traffic.tcl
+save_wave_config {C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_traffic.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_traffic.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_traffic.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_traffic.tcl
+close_sim
+launch_simulation
+launch_simulation
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_traffic.tcl
+save_wave_config {C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_traffic.tcl
+close_sim
+launch_simulation
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_traffic.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_traffic.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_traffic.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_traffic.tcl
+close_sim
+launch_simulation
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_traffic.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_traffic.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_traffic.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_traffic.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_traffic.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_traffic.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_traffic.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_traffic.tcl
+close_sim
+launch_simulation
+launch_simulation
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_traffic.tcl
+close_sim
+launch_simulation
+launch_simulation
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_traffic.tcl
+save_wave_config {C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_traffic.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_traffic.tcl
+save_wave_config {C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_traffic.tcl
+set_property -name {xsim.simulate.runtime} -value {10000ns} -objects [get_filesets sim_1]
+save_wave_config {C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_traffic.tcl
+close_sim
+launch_simulation
+remove_files  C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/ATC.srcs/sources_1/new/clk_three.vhd
+file delete -force C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/ATC.srcs/sources_1/new/clk_three.vhd
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_traffic.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_traffic.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_traffic.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_traffic.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_traffic.tcl
+remove_files  C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/ATC.srcs/sources_1/new/act_traffic.vhd
+file delete -force C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/ATC.srcs/sources_1/new/act_traffic.vhd
+remove_files  -fileset sim_1 C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/ATC.srcs/sim_1/new/test_act_traffic.vhd
+file delete -force C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/ATC.srcs/sim_1/new/test_act_traffic.vhd
+close [ open C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/ATC.srcs/sources_1/new/debounce.vhd w ]
+add_files C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/ATC.srcs/sources_1/new/debounce.vhd
+close [ open C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/ATC.srcs/sources_1/new/model_sel.vhd w ]
+add_files C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/ATC.srcs/sources_1/new/model_sel.vhd
+close_sim
+launch_simulation
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_simulation
+launch_simulation
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_simulation
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_traffic.tcl
+save_wave_config {C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_traffic.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_traffic.tcl
+save_wave_config {C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg}
+close_sim
+launch_simulation
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_traffic.tcl
+save_wave_config {C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_traffic.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_traffic.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_traffic.tcl
+close_sim
+launch_simulation
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_traffic.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_traffic.tcl
+save_wave_config {C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_traffic.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_traffic.tcl
+save_wave_config {C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg}
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+refresh_design
+close_sim
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_traffic.tcl
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+refresh_design
+close_sim
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_traffic.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_traffic.tcl
+close_sim
+launch_simulation
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_traffic.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_traffic.tcl
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_traffic.tcl
+close_sim
+launch_simulation
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_traffic.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_traffic.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_traffic.tcl
+close_sim
+launch_simulation
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_traffic.tcl
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_traffic.tcl
+close_sim
+launch_simulation
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_traffic.tcl
+save_wave_config {C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_traffic.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/test_act_traffic_behav.wcfg
+source test_traffic.tcl
+close_sim
+close_sim

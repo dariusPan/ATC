@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="test_traffic_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="test_traffic" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1709841781fs"></ZoomEndTime>
+      <Cursor1Time time="150000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="84"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="16" />
+   <wvobject fp_name="/test_traffic/act/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_traffic/act/clk_one" type="logic">
+      <obj_property name="ElementShortName">clk_one</obj_property>
+      <obj_property name="ObjectShortName">clk_one</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_traffic/act/req" type="logic">
+      <obj_property name="ElementShortName">req</obj_property>
+      <obj_property name="ObjectShortName">req</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_traffic/act/previous_req" type="logic">
+      <obj_property name="ElementShortName">previous_req</obj_property>
+      <obj_property name="ObjectShortName">previous_req</obj_property>
+   </wvobject>
+   <wvobject fp_name="group936" type="group">
+      <obj_property name="label">model</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/test_traffic/act/mod_a" type="logic">
+         <obj_property name="ElementShortName">mod_a</obj_property>
+         <obj_property name="ObjectShortName">mod_a</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_traffic/act/mod_b" type="logic">
+         <obj_property name="ElementShortName">mod_b</obj_property>
+         <obj_property name="ObjectShortName">mod_b</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_traffic/act/mod_c" type="logic">
+         <obj_property name="ElementShortName">mod_c</obj_property>
+         <obj_property name="ObjectShortName">mod_c</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/test_traffic/act/heavy" type="logic">
+      <obj_property name="ElementShortName">heavy</obj_property>
+      <obj_property name="ObjectShortName">heavy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_traffic/act/current_mod" type="logic">
+      <obj_property name="ElementShortName">current_mod</obj_property>
+      <obj_property name="ObjectShortName">current_mod</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_traffic/act/previous_mod" type="logic">
+      <obj_property name="ElementShortName">previous_mod</obj_property>
+      <obj_property name="ObjectShortName">previous_mod</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_traffic/act/current_s" type="other">
+      <obj_property name="ElementShortName">current_s</obj_property>
+      <obj_property name="ObjectShortName">current_s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_traffic/act/granted" type="logic">
+      <obj_property name="ElementShortName">granted</obj_property>
+      <obj_property name="ObjectShortName">granted</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_traffic/act/denied" type="logic">
+      <obj_property name="ElementShortName">denied</obj_property>
+      <obj_property name="ObjectShortName">denied</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_traffic/act/start_ten" type="logic">
+      <obj_property name="ElementShortName">start_ten</obj_property>
+      <obj_property name="ObjectShortName">start_ten</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_traffic/act/end_ten" type="logic">
+      <obj_property name="ElementShortName">end_ten</obj_property>
+      <obj_property name="ObjectShortName">end_ten</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_traffic/act/start_three" type="logic">
+      <obj_property name="ElementShortName">start_three</obj_property>
+      <obj_property name="ObjectShortName">start_three</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_traffic/act/end_three" type="logic">
+      <obj_property name="ElementShortName">end_three</obj_property>
+      <obj_property name="ObjectShortName">end_three</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_traffic/act/count" type="other">
+      <obj_property name="ElementShortName">count</obj_property>
+      <obj_property name="ObjectShortName">count</obj_property>
+   </wvobject>
+</wave_config>

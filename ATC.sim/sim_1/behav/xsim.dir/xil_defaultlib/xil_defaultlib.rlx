@@ -1,0 +1,9 @@
+0.6
+2016.3
+Oct 10 2016
+19:46:48
+C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/ATC.srcs/sim_1/new/test_traffic.vhd,1505872476,vhdl,,,,test_traffic,,,,,,,,
+C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/ATC.srcs/sources_1/new/clk_ten.vhd,1505848091,vhdl,C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/ATC.srcs/sources_1/new/traffic.vhd,,,clk_ten,,,,,,,,
+C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/ATC.srcs/sources_1/new/model_sel.vhd,1505667466,vhdl,C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/ATC.srcs/sources_1/new/traffic.vhd,,,model_sel,,,,,,,,
+C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/ATC.srcs/sources_1/new/slow_clk.vhd,1505833342,vhdl,C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/ATC.srcs/sources_1/new/traffic.vhd,,,slow_clk,,,,,,,,
+C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/ATC.srcs/sources_1/new/traffic.vhd,1505881228,vhdl,C:/Users/Darius/Desktop/Y4S1/EE4218/ATC/ATC.srcs/sim_1/new/test_traffic.vhd,,,traffic,,,,,,,,
